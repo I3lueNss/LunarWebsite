@@ -61,9 +61,6 @@ header, .navbar{
     padding: 0;
 }
 
-#mainSlider .carousel-inner, #mainSlider .carousel-item{
-    height: 90vh;
-}
 
 #mainSlider .carousel-caption {
     top: 75%;
@@ -86,4 +83,54 @@ header, .navbar{
     color: rgb(0, 0, 0);
     background-color: transparent;
     border-color: rgb(0, 0, 0);
+}
+
+/* Sobre a empresa */
+
+#about-area{
+    color: #fff;
+}
+
+.main-title{
+    color: #001272;
+    margin: 0 0 65px 0;
+    font-size: 40px;
+    text-align: left;
+}
+
+.main-title::after{
+    content: "";
+    border-top: 2px solid #001272 ;
+    width: 15%;
+    position: absolute;
+    top: 60px;
+    right: 83.5%;
+}
+
+.about-title{
+    font-size: 17px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+#about-list{
+    list-style: none;
+    padding-left: 0;
+}
+
+#about-list li{
+    line-height: 30px;
+}
+
+#about-list i{
+    color: #001272;
+    margin-right: 15px;
+}
+
+.img-fluid{
+    padding-right: 8rem;
+}
+
+.col-md-6{
+    text-align: center;
 }
