@@ -38,8 +38,8 @@ header, .navbar{
 }
 
 #logo{
-    width: 280px;
-    height: 80px;
+    width: 300px;
+    height: 110px;
 }
 
 .navbar-brand {
@@ -60,44 +60,10 @@ header, .navbar{
     padding: 1rem .8rem;
 }
 
-/* Slider */
-
-.container-fluid{
-    padding: 0;
-}
-
-
-#mainSlider .carousel-caption {
-    top: 75%;
-}
-
-.main-btn{
-    background-color: rgb(0, 0, 0);
-    color: #fff;
-    text-transform: uppercase;
-    width: 200px;
-    height: 60px;
-    padding: 10px 20px;
-    border-radius: 30px;
-    border: 3px solid;
-    transition: .5s;
-}
-
-.main-btn:hover{
-    text-decoration: none;
-    color: rgb(0, 0, 0);
-    background-color: transparent;
-    border-color: rgb(0, 0, 0);
-}
-
 /* Sobre a empresa */
 
 #main-area{
     color: black;
-}
-
-#area-meetboo{
-    margin-top: 5%;
 }
 
 #area-sobre{
@@ -111,20 +77,34 @@ header, .navbar{
     background-position: center;
 }
 
-.main-title{
-    color: rgb(0, 0, 0);
-    margin: 0 0 65px 0;
-    font-size: 40px;
-    text-align: center;
-}
-
-
 .about-title{
     padding-top: 30%;
     text-transform: uppercase;
     font-weight: bold;
     font-size: 50px;
 }
+
+
+.link-lunar{
+    text-decoration: none;
+    color: #040c5e;
+}
+
+.link-lunar:hover{
+    text-decoration: none;
+    color: #040c5e;
+}
+/* Projetos/meetboo */
+#area-meetboo{
+    margin-top: 5%;
+}
+
+/* .main-title{
+    color: rgb(0, 0, 0);
+    margin: 0 0 65px 0;
+    font-size: 40px;
+    text-align: center;
+}*/
 
 .exclu{
     padding-top: 0;
@@ -139,23 +119,10 @@ header, .navbar{
     padding-top: 20%;
 }
 
-.astro{
-    padding-left: 8rem;
-}
-
 .book{
     padding-right: 5%;
 }
 
-.link-lunar{
-    text-decoration: none;
-    color: #040c5e;
-}
-
-.link-lunar:hover{
-    text-decoration: none;
-    color: #040c5e;
-}
 
 .link-meetboo{
     text-decoration: none;
@@ -182,4 +149,98 @@ header, .navbar{
 }
 .col-md-6{
     text-align: left;
+}
+
+/* Parceiros */
+
+.about-parceiros{
+    padding-left: 8rem;
+    text-align: center;
+}
+
+.nuvem{
+    padding-left: 8rem;
+    opacity: 0.5;
+}
+
+.area-logos{
+    padding-top: 8%;
+}
+.parceiros{
+    width: 110%;
+    height: 90%;
+}
+
+/* Time */
+
+.team-title{
+    color: rgb(0, 0, 0);
+    margin-bottom: 5%;
+    text-align: center;
+}
+
+.card{
+    margin-bottom: 30px;
+    border: 2px solid #040c5e;
+}
+
+.card-esconde{
+    display: none;
+}
+
+.card-title{
+    color: #040c5e;
+
+}
+
+.card-text{
+    padding-top: 0;
+}
+
+.card-body{
+    text-align: center;
+    border-top: 2px solid #040c5e;
+}
+
+/* Fale Conosco */
+
+#contato-area{
+    border-top: 10px solid #040c5e;
+    border-bottom: 10px solid #040c5e;
+}
+
+.about-contato{
+    margin-bottom: 20px;
+}
+
+.input-estilo{
+    border-radius: 30px;
+    margin-bottom: 10px;
+    padding-left: 20px;
+    background-color:rgb(211, 210, 210);
+}
+
+.btn-contato{
+    width: 100%;
+    border-radius: 30px;
+    border-style: none;
+    height: 50px;
+    background-color: #040c5e;
+    color: #fff;
+    cursor: pointer;
+}
+
+.footer-redes{
+    padding-top: 5%;
+}
+
+#copy-area{
+    text-align: center;
+}
+
+.contato-title{
+    padding-top: 30%;
+    padding-left: 20px;
+    text-align: center;
+    font-size: 50px;
 }
