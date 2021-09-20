@@ -204,10 +204,6 @@ header, .navbar{
 
 /* Fale Conosco */
 
-#contato-area{
-    border-top: 10px solid #040c5e;
-    border-bottom: 10px solid #040c5e;
-}
 
 .about-contato{
     margin-bottom: 20px;
@@ -243,4 +239,53 @@ header, .navbar{
     padding-left: 20px;
     text-align: center;
     font-size: 50px;
+}
+
+.envelope{
+    padding-left: 8rem;
+}
+
+#copy-area{
+    background-color: #040a4d;
+    color: #fff;
+    align-items: center;
+}
+
+.opacidade{
+    opacity: 0.3;
+    padding-top: 0;
+    font-size: 15px;
+}
+
+.termos{
+    padding-top: 0;
+}
+
+
+
+.lista-icones-sociais{
+    display: flex;
+    list-style-type: none;
+    margin-top: 1rem;
+    padding-left: 45%;
+}
+
+.icones-sociais{
+    background-color: #fff;
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    line-height: 33px;
+    text-align: center;
+    color: #040a4d;
+}
+
+.link-social:not(:first-child){
+    margin-left: 10px;
+}
+.link-social:hover .icones-sociais{
+    background-color: #040a4d;
+    border: 1px solid #fff;
+    color: #fff;
+    transition: .5s;
 }
