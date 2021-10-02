@@ -78,16 +78,20 @@ header, .navbar{
 }
 
 .about-title{
-    padding-top: 30%;
+    padding-top: 10%;
     text-transform: uppercase;
-    font-weight: bold;
-    font-size: 50px;
+    padding-right: 1rem;
+    color: #0D1438;
+}
+
+.likemg{
+    padding-left: 4rem;
 }
 
 
 .link-lunar{
     text-decoration: none;
-    color: #040c5e;
+    color: #8E8AFF;
 }
 
 .link-lunar:hover{
@@ -110,13 +114,14 @@ header, .navbar{
     padding-top: 0;
     text-align: center;
     text-transform: none;
+    font-size: 40px;
 }
 
 .about-meetboo{
-    text-transform: uppercase;
     font-weight: bold;
     font-size: 30px;
     padding-top: 20%;
+    color: #0D1438;
 }
 
 .book{
@@ -136,11 +141,12 @@ header, .navbar{
 
 .btn-meetboo{
     padding: 2px 2px;
-    border: 2px solid #b76ae5;
-    border-radius: 10%;
-    width: 20%;
+    border: none;
+    border-radius: 30px;
+    width: 30%;
     margin-top: 10%;
-    background-color: #d298f4;
+    background-color: #0D1438;
+    color: white;
     cursor: pointer;    
 }
 
@@ -153,22 +159,67 @@ header, .navbar{
 
 /* Parceiros */
 
-.about-parceiros{
-    padding-left: 8rem;
+.parceiros-title{
+    color: #0D1438;
     text-align: center;
 }
 
-.nuvem{
-    padding-left: 8rem;
-    opacity: 0.5;
+.parceiros-desc{
+    font-size: 13px;
 }
 
-.area-logos{
-    padding-top: 8%;
-}
 .parceiros{
-    width: 110%;
-    height: 90%;
+    width: 45%;
+    height: 85%;
+    padding-top: 20px;
+    opacity: 66%;
+}
+
+.parceiros-flex{
+    display: flex;
+    text-align: center;
+}
+
+.sem-flex{
+    display: unset;
+}
+
+
+.esquerda-superior{
+    border: solid 1px black;
+}
+
+.esquerda-inferior{
+    border-bottom: solid 1px black;
+    border-right: solid 1px black;
+    border-left: solid 1px black;
+
+}
+
+.direita-superior{
+    border-top: solid 1px black;
+    border-right: solid 1px black;
+    border-bottom: solid 1px black;
+}
+
+.direita-inferior{
+    border-right: solid 1px black;
+    border-bottom: solid 1px black;
+
+}
+
+
+.parceiros-nome{
+    padding-left: 5%;
+    padding-top: 5%;
+    color: #000F98;
+}
+
+.desc-parceiros{
+    padding-top: 0;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    text-align: center;
 }
 
 /* Time */
@@ -181,53 +232,72 @@ header, .navbar{
 
 .card{
     margin-bottom: 30px;
-    border: 2px solid #040c5e;
-}
-
-.card-esconde{
-    display: none;
+    border: none;
 }
 
 .card-title{
-    color: #040c5e;
+    color: #fff;
 
 }
 
 .card-text{
     padding-top: 0;
+    color: #fff;
 }
+
 
 .card-body{
     text-align: center;
-    border-top: 2px solid #040c5e;
 }
+
+.ideais{
+    background-color: #8E8AFF;
+    width: 30%;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    align-self: center;
+    border-radius: 90px;
+} 
 
 /* Fale Conosco */
 
 
 .about-contato{
     margin-bottom: 20px;
+    color: #0D1438;
 }
 
 .input-estilo{
-    border-radius: 30px;
+    border: 1px solid;
     margin-bottom: 10px;
-    padding-left: 20px;
-    background-color:rgb(211, 210, 210);
+    padding-left: 10px;
+    background: transparent;
+}
+
+.input-estilo::placeholder{
+    color: #0D1438;
 }
 
 .btn-contato{
-    width: 100%;
-    border-radius: 30px;
+    width: 30%;
+    border: 1px solid;
     border-style: none;
-    height: 50px;
+    height: 35px;
     background-color: #040c5e;
     color: #fff;
     cursor: pointer;
 }
 
+footer{
+    margin-top: 10%;
+}
+
+.contato-footer{
+    padding-top: 3%;
+}
+
 .footer-redes{
-    padding-top: 5%;
+    padding-top: 3%;
 }
 
 #copy-area{
@@ -246,9 +316,19 @@ header, .navbar{
 }
 
 #copy-area{
-    background-color: #040a4d;
+    background-color: #749cf7;
     color: #fff;
     align-items: center;
+}
+
+.termos{
+    color: #fff;
+    text-decoration: none;
+}
+
+.termos:hover{
+    color: #0D1438;
+    text-decoration: none;
 }
 
 .opacidade{
@@ -257,35 +337,71 @@ header, .navbar{
     font-size: 15px;
 }
 
-.termos{
-    padding-top: 0;
+.logo-footer{
+    margin-top: 40px;
+    margin-bottom: 40px;
 }
 
-
-
-.lista-icones-sociais{
-    display: flex;
-    list-style-type: none;
-    margin-top: 1rem;
-    padding-left: 45%;
+.texto-footer{
+    margin-top: 45px;
+    font-size: 20px;
 }
 
-.icones-sociais{
-    background-color: #fff;
-    border-radius: 50%;
-    width: 35px;
-    height: 35px;
-    line-height: 33px;
-    text-align: center;
-    color: #040a4d;
-}
-
-.link-social:not(:first-child){
-    margin-left: 10px;
-}
-.link-social:hover .icones-sociais{
-    background-color: #040a4d;
-    border: 1px solid #fff;
+.link-footer{
+    text-decoration: none;
     color: #fff;
-    transition: .5s;
+    margin-right: 2px;
+    margin-left: 2px;
+}
+
+.link-footer:hover{
+    text-decoration: none;
+    color: #040c5e;
+
+}
+
+.icones-footer{
+    margin-top: 30px;
+    margin-right: 5px;
+    margin-left: 5px;
+    color: #fff;
+}
+
+.icones-footer:hover{
+    color: #040c5e;
+}
+
+.news-estilo{
+    border: 1px solid #fff;
+    background-color: transparent;
+    margin-bottom: 10px;
+    width: 80%;
+    margin-left: 10%;
+    outline: none;
+    transition: 0.8s;
+}
+
+.news-estilo::placeholder{
+    color: #fff;
+}
+
+.news-estilo:focus{
+    background: #040c5e;
+    transition: 0.8s;
+}
+
+.news-btn{
+    height: 30px;
+    width: 20%;
+    color: #fff;
+    background: transparent;
+    border: 1px solid #fff;
+    cursor: pointer;
+    border-radius: 10px;
+    transition: 1s;
+}
+
+.news-btn:hover{
+    transition: 1s;
+    background: #040c5e;
 }
