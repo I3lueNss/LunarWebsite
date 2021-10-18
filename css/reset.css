@@ -6,9 +6,4 @@
 
 a {
     text-decoration: none;
-    transition: .3;
-}
-
-a:hover {
-    opacity: .7;
 }
